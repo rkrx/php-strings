@@ -1,0 +1,12 @@
+{
+	"name": "rkr/strings",
+	"license": "MIT",
+	"require": {
+		"php": ">= 5.3"
+	},
+	"autoload": {
+		"files": [
+			""
+		]
+	}
+}
