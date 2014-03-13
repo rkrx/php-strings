@@ -6,7 +6,10 @@
 	},
 	"autoload": {
 		"files": [
-			"src/str.php"
+			"src/readonly.php",
+			"src/manipulation.php",
+			"src/case.php",
+			"src/assertions.php"
 		]
 	}
 }
