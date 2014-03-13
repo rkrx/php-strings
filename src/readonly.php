@@ -51,7 +51,7 @@ function chars($string) {
  */
 function part($string, $start = 1, $length = null) {
 	// http://www.php.net/manual/en/function.mb-substr.php#77515
-	$length = is_null($length) ? len($length) : $length;
+	$length = is_null($length) ? len($string) : $length;
 	return mb_substr($string, $start - 1, $length, 'UTF-8');
 }
 
