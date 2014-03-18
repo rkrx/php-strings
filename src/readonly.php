@@ -5,12 +5,12 @@ namespace rkr\str;
  * @param string $haystack
  * @param string $needle
  * @param int $offset
- * @return int|null Index of the first occurrence (1 = first) or null if nothing found
+ * @return int|null Index of the first occurrence (0 = first) or null if nothing found
  */
 function pos($haystack, $needle, $offset = null) {
 	$offset = $offset ?: null;
-	$pos = mb_strpos($haystack, $needle, $offset - 1, 'UTF-8');
-	return $pos === false ? null : $pos + 1;
+	$pos = mb_strpos($haystack, $needle, $offset, 'UTF-8');
+	return $pos === false ? -1 : $pos;
 }
 
 /**
@@ -26,8 +26,8 @@ function len($string) {
  * @param int $index
  * @return bool
  */
-function char($string, $index = 1) {
-	return mb_substr($string, $index - 1, 1, 'UTF-8');
+function char($string, $index = 0) {
+	return mb_substr($string, $index, 1, 'UTF-8');
 }
 
 /**
@@ -49,10 +49,10 @@ function chars($string) {
  * @param int $length
  * @return bool
  */
-function part($string, $start = 1, $length = null) {
+function part($string, $start = 0, $length = null) {
 	// http://www.php.net/manual/en/function.mb-substr.php#77515
 	$length = is_null($length) ? len($string) : $length;
-	return mb_substr($string, $start - 1, $length, 'UTF-8');
+	return mb_substr($string, $start, $length, 'UTF-8');
 }
 
 /**

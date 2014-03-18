@@ -7,8 +7,8 @@ namespace rkr\str;
  * @param int $start
  * @return bool
  */
-function overwrite($string, $part, $start = 1) {
-	return mb_substr($string, $start - 1, $length, 'UTF-8');
+function overwrite($string, $part, $start) {
+	return mb_substr($string, $start, $length, 'UTF-8');
 }
 
 /**
@@ -17,7 +17,7 @@ function overwrite($string, $part, $start = 1) {
  * @param int $start
  * @return bool
  */
-function insert($string, $part, $start = 1) {
-	return mb_substr($string, $start - 1, $length, 'UTF-8');
+function insert($string, $part, $start) {
+	return mb_substr($string, $start, $length, 'UTF-8');
 }
 

@@ -1,0 +1,13 @@
+<phpunit bootstrap="vendor/autoload.php"
+		 backupGlobals="false"
+		 backupStaticAttributes="false"
+		 strict="true"
+		 verbose="true">
+	<testsuites>
+		<testsuite name="TradeSync">
+			<file>tests/ContainsTest.php</file>
+			<file>tests/StartsWithTest.php</file>
+			<file>tests/EndsWithTest.php</file>
+		</testsuite>
+	</testsuites>
+</phpunit>
