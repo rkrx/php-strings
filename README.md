@@ -10,38 +10,38 @@
 
 ## Functions
 
-* ${\color{lightblue}\rkr\str\\}$at(${\color{blue}string|null}$ $string, ${\color{blue}int|null}$ $position): string|null<br />Get the character at the specified position in a string.
-* ${\color{lightblue}\rkr\str\\}$bagDistance(${\color{blue}string|null}$ $string1, ${\color{blue}string|null}$ $string2): int|null<br />Calculate the bag distance between two strings.
-* ${\color{lightblue}\rkr\str\\}$capitalize(${\color{blue}string|null}$ $string): string|null<br />Capitalize the first character of the string.
-* ${\color{lightblue}\rkr\str\\}$capitalizeWords(${\color{blue}string|null}$ $string): string|null<br />Capitalize the first letter of each word in a string.
-* ${\color{lightblue}\rkr\str\\}$characters(${\color{blue}string|null}$ $string): array|null<br />Get the Unicode characters of a string.
-* ${\color{lightblue}\rkr\str\\}$chunk(${\color{blue}string|null}$ $string, ${\color{blue}int}$ $length): array|null<br />Splits a string into chunks of the given length.
-* ${\color{lightblue}\rkr\str\\}$contains(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle): bool<br />Check if a string contains another string.
-* ${\color{lightblue}\rkr\str\\}$duplicate(${\color{blue}string|null}$ $string, ${\color{blue}int}$ $times): string|null<br />Duplicate a string a given number of times.
-* ${\color{lightblue}\rkr\str\\}$endsWith(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle): bool<br />Checks if the haystack ends with the needle.
-* ${\color{lightblue}\rkr\str\\}$equals(${\color{blue}string|null}$ $string1, ${\color{blue}string|null}$ $string2): bool<br />Asserts that a string is equal to another string.
-* ${\color{lightblue}\rkr\str\\}$first(${\color{blue}string|null}$ $string): string|null<br />Get the first character of a string.
-* ${\color{lightblue}\rkr\str\\}$indexOf(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle, ${\color{blue}int}$ $offset): int|null<br />Finds the position of the first occurrence of a substring in a string.
-* ${\color{lightblue}\rkr\str\\}$jaroDistance(${\color{blue}string|null}$ $string1, ${\color{blue}string|null}$ $string2): float|null<br />Calculate the Jaro distance between two strings.
-* ${\color{lightblue}\rkr\str\\}$last(${\color{blue}string|null}$ $string): string|null<br />Get the last character of a string.
-* ${\color{lightblue}\rkr\str\\}$lastIndexOf(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle, ${\color{blue}int}$ $offset): int|null<br />Find the last occurrence of a string in another string.
-* ${\color{lightblue}\rkr\str\\}$length(${\color{blue}string|null}$ $string): int|null<br />Get the length of the string.
-* ${\color{lightblue}\rkr\str\\}$lower(${\color{blue}string|null}$ $string): string|null<br />Converts a string to lowercase.
-* ${\color{lightblue}\rkr\str\\}$matches(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $pattern): bool<br />Check if a string matches a regular expression pattern.
-* ${\color{lightblue}\rkr\str\\}$myersDifference(${\color{blue}string|null}$ $string1, ${\color{blue}string|null}$ $string2): int|null<br />Calculate the Myers difference between two strings.
-* ${\color{lightblue}\rkr\str\\}$normalize(${\color{blue}string|null}$ $string, ${\color{blue}string}$ $form): string|null<br />Normalize a string using a specified normalization form.
-* ${\color{lightblue}\rkr\str\\}$padLeading(${\color{blue}string|null}$ $string, ${\color{blue}int}$ $length, ${\color{blue}string|null}$ $substring): string|null<br />Pads the given string on the left side to the specified length with the specified character.
-* ${\color{lightblue}\rkr\str\\}$padTrailing(${\color{blue}string|null}$ $string, ${\color{blue}positive-int}$ $length, ${\color{blue}string}$ $char): string|null<br />Pads the given string to the specified length with the given character.
-* ${\color{lightblue}\rkr\str\\}$replace(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle, ${\color{blue}string|null}$ $replacement): string|null<br />Replace all occurrences of the needle in the haystack with the replacement.
-* ${\color{lightblue}\rkr\str\\}$replaceFirst(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle, ${\color{blue}string|null}$ $replacement): string|null<br />Replace the first occurrence of a needle in the haystack with a replacement.
-* ${\color{lightblue}\rkr\str\\}$replaceLast(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle, ${\color{blue}string|null}$ $replacement): string|null<br />Replaces all occurrences of a string in another string.
-* ${\color{lightblue}\rkr\str\\}$replacePrefix(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $prefix, ${\color{blue}string|null}$ $replacement): string|null<br />Replace the prefix of a string with another string.
-* ${\color{lightblue}\rkr\str\\}$replaceSuffix(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $suffix, ${\color{blue}string|null}$ $replacement): string|null<br />Replaces the suffix of a string.
-* ${\color{lightblue}\rkr\str\\}$reverse(${\color{blue}string|null}$ $string): string|null<br />Reverse a given string.
-* ${\color{lightblue}\rkr\str\\}$shift(${\color{blue}string|null}$ $string, ${\color{blue}positive-int}$ $length): null|array{: string, : string}<br />Shifts a string by a given length.
-* ${\color{lightblue}\rkr\str\\}$startsWith(${\color{blue}string|null}$ $haystack, ${\color{blue}string|null}$ $needle): bool<br />Checks if the haystack starts with the needle.
-* ${\color{lightblue}\rkr\str\\}$substr(${\color{blue}string|null}$ $string, ${\color{blue}int}$ $start, ${\color{blue}int|null}$ $length): string|null<br />Get a substring of a string.
-* ${\color{lightblue}\rkr\str\\}$trim(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $chars ${\color{lightblue}null}$): string|null<br />Trims the given string by removing the specified characters from the beginning and the end.
-* ${\color{lightblue}\rkr\str\\}$trimLeft(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $chars ${\color{lightblue}null}$): string|null<br />Trims the specified characters from the beginning of the string.
-* ${\color{lightblue}\rkr\str\\}$trimRight(${\color{blue}string|null}$ $string, ${\color{blue}string|null}$ $chars ${\color{lightblue}null}$): string|null<br />Trims the specified characters from the end of the string.
-* ${\color{lightblue}\rkr\str\\}$upper(${\color{blue}string|null}$ $string): string|null<br />Convert a string to uppercase.
+* \rkr\str\\**at**(_string|null_ **string**, _int|null_ **position**): _string|null_<br />_Get the character at the specified position in a string._
+* \rkr\str\\**bagDistance**(_string|null_ **string1**, _string|null_ **string2**): _int|null_<br />_Calculate the bag distance between two strings._
+* \rkr\str\\**capitalize**(_string|null_ **string**): _string|null_<br />_Capitalize the first character of the string._
+* \rkr\str\\**capitalizeWords**(_string|null_ **string**): _string|null_<br />_Capitalize the first letter of each word in a string._
+* \rkr\str\\**characters**(_string|null_ **string**): _array|null_<br />_Get the Unicode characters of a string._
+* \rkr\str\\**chunk**(_string|null_ **string**, _int_ **length**): _array|null_<br />_Splits a string into chunks of the given length._
+* \rkr\str\\**contains**(_string|null_ **haystack**, _string|null_ **needle**): _bool_<br />_Check if a string contains another string._
+* \rkr\str\\**duplicate**(_string|null_ **string**, _int_ **times**): _string|null_<br />_Duplicate a string a given number of times._
+* \rkr\str\\**endsWith**(_string|null_ **haystack**, _string|null_ **needle**): _bool_<br />_Checks if the haystack ends with the needle._
+* \rkr\str\\**equals**(_string|null_ **string1**, _string|null_ **string2**): _bool_<br />_Asserts that a string is equal to another string._
+* \rkr\str\\**first**(_string|null_ **string**): _string|null_<br />_Get the first character of a string._
+* \rkr\str\\**indexOf**(_string|null_ **haystack**, _string|null_ **needle**, _int_ **offset**): _int|null_<br />_Finds the position of the first occurrence of a substring in a string._
+* \rkr\str\\**jaroDistance**(_string|null_ **string1**, _string|null_ **string2**): _float|null_<br />_Calculate the Jaro distance between two strings._
+* \rkr\str\\**last**(_string|null_ **string**): _string|null_<br />_Get the last character of a string._
+* \rkr\str\\**lastIndexOf**(_string|null_ **haystack**, _string|null_ **needle**, _int_ **offset**): _int|null_<br />_Find the last occurrence of a string in another string._
+* \rkr\str\\**length**(_string|null_ **string**): _int|null_<br />_Get the length of the string._
+* \rkr\str\\**lower**(_string|null_ **string**): _string|null_<br />_Converts a string to lowercase._
+* \rkr\str\\**matches**(_string|null_ **string**, _string|null_ **pattern**): _bool_<br />_Check if a string matches a regular expression pattern._
+* \rkr\str\\**myersDifference**(_string|null_ **string1**, _string|null_ **string2**): _int|null_<br />_Calculate the Myers difference between two strings._
+* \rkr\str\\**normalize**(_string|null_ **string**, _string_ **form**): _string|null_<br />_Normalize a string using a specified normalization form._
+* \rkr\str\\**padLeading**(_string|null_ **string**, _int_ **length**, _string|null_ **substring**): _string|null_<br />_Pads the given string on the left side to the specified length with the specified character._
+* \rkr\str\\**padTrailing**(_string|null_ **string**, _positive-int_ **length**, _string_ **char**): _string|null_<br />_Pads the given string to the specified length with the given character._
+* \rkr\str\\**replace**(_string|null_ **haystack**, _string|null_ **needle**, _string|null_ **replacement**): _string|null_<br />_Replace all occurrences of the needle in the haystack with the replacement._
+* \rkr\str\\**replaceFirst**(_string|null_ **haystack**, _string|null_ **needle**, _string|null_ **replacement**): _string|null_<br />_Replace the first occurrence of a needle in the haystack with a replacement._
+* \rkr\str\\**replaceLast**(_string|null_ **haystack**, _string|null_ **needle**, _string|null_ **replacement**): _string|null_<br />_Replaces all occurrences of a string in another string._
+* \rkr\str\\**replacePrefix**(_string|null_ **string**, _string|null_ **prefix**, _string|null_ **replacement**): _string|null_<br />_Replace the prefix of a string with another string._
+* \rkr\str\\**replaceSuffix**(_string|null_ **string**, _string|null_ **suffix**, _string|null_ **replacement**): _string|null_<br />_Replaces the suffix of a string._
+* \rkr\str\\**reverse**(_string|null_ **string**): _string|null_<br />_Reverse a given string._
+* \rkr\str\\**shift**(_string|null_ **string**, _positive-int_ **length**): _null|array{: string, : string}_<br />_Shifts a string by a given length._
+* \rkr\str\\**startsWith**(_string|null_ **haystack**, _string|null_ **needle**): _bool_<br />_Checks if the haystack starts with the needle._
+* \rkr\str\\**substr**(_string|null_ **string**, _int_ **start**, _int|null_ **length**): _string|null_<br />_Get a substring of a string._
+* \rkr\str\\**trim**(_string|null_ **string**, _string|null_ **chars** _null_): _string|null_<br />_Trims the given string by removing the specified characters from the beginning and the end._
+* \rkr\str\\**trimLeft**(_string|null_ **string**, _string|null_ **chars** _null_): _string|null_<br />_Trims the specified characters from the beginning of the string._
+* \rkr\str\\**trimRight**(_string|null_ **string**, _string|null_ **chars** _null_): _string|null_<br />_Trims the specified characters from the end of the string._
+* \rkr\str\\**upper**(_string|null_ **string**): _string|null_<br />_Convert a string to uppercase._
