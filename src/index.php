@@ -1,0 +1,37 @@
+<?php
+
+require 'assertions/equals.php';
+require 'assertions/startsWith.php';
+require 'assertions/endsWith.php';
+require 'assertions/contains.php';
+require 'projection/padTrailing.php';
+require 'projection/upper.php';
+require 'projection/capitalizeWords.php';
+require 'projection/myersDifference.php';
+require 'projection/replaceLast.php';
+require 'projection/lastIndexOf.php';
+require 'projection/jaroDistance.php';
+require 'projection/at.php';
+require 'projection/replaceSuffix.php';
+require 'projection/substr.php';
+require 'projection/duplicate.php';
+require 'projection/trimRight.php';
+require 'projection/lower.php';
+require 'projection/shift.php';
+require 'projection/characters.php';
+require 'projection/trim.php';
+require 'projection/indexOf.php';
+require 'projection/matches.php';
+require 'projection/replace.php';
+require 'projection/normalize.php';
+require 'projection/reverse.php';
+require 'projection/chunk.php';
+require 'projection/last.php';
+require 'projection/replacePrefix.php';
+require 'projection/padLeading.php';
+require 'projection/capitalize.php';
+require 'projection/length.php';
+require 'projection/bagDistance.php';
+require 'projection/replaceFirst.php';
+require 'projection/trimLeft.php';
+require 'projection/first.php';

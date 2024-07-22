@@ -2,17 +2,16 @@
 	"name": "rkr/strings",
 	"license": "MIT",
 	"require": {
-		"php": ">= 5.3"
+		"php": ">= 8.0",
+		"ext-mbstring": "*"
 	},
 	"require-dev": {
-		"phpunit/phpunit": "~3.7"
+		"phpstan/phpstan": "^1.11",
+		"phpunit/phpunit": "^10.0"
 	},
 	"autoload": {
 		"files": [
-			"src/readonly.php",
-			"src/manipulation.php",
-			"src/case.php",
-			"src/assertions.php"
+			"src/index.php"
 		]
 	},
 	"autoload-dev": {
